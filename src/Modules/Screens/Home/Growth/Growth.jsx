@@ -18,7 +18,7 @@ const Growth = () => {
             </div>
         </div>
         <div className="growthRight">
-            <img src="https://preview.codeless.co/converta/default/wp-content/uploads/2023/03/img-re.jpeg" alt="" width={500} />
+            <img src="https://res.cloudinary.com/dqcr5yn0b/image/upload/v1721992320/people-business-character-with-activities-free-vector_qklt6v.jpg" alt="" width={500} />
         </div>
     </div>
   )

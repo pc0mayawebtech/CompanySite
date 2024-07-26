@@ -8,7 +8,6 @@ import client from "../../../assets/Images/clients1.png";
 import project from "../../../assets/Images/projects.png";
 import support from "../../../assets/Images/support.png";
 import hardWork from "../../../assets/Images/team-member.png";
-import Testinomial from "../Home/Testinomial/Testinomial";
 import FAQ from "../Home/FAQ/FAQ";
 import { questions } from "../Home/FAQ/api.js";
 import { Fade } from "react-awesome-reveal";
@@ -19,7 +18,6 @@ import Strategy from "./Strategy/Strategy.jsx";
 
 const Home = () => {
   // eslint-disable-next-line no-unused-vars
-  const [data, setData] = useState(questions);
   const [selectedID, setSelectedID] = useState();
   const videoRef = useRef();
 
@@ -48,14 +46,23 @@ const Home = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-5">
-                <div className="bannerLeftSide">
-                  <h1 className="bannerHead animate__animated animate__zoomInDown animate__delay-1s">
-                    Global Market Intelligence Consultancy
-                  </h1>
-                  <p className="bannerPara animate__animated animate__zoomInDown animate__delay-2s">
-                    We can research any market, any company, any topic,
-                    anywhere.
-                  </p>
+                <div className="mainHero">
+                  <div className="bannerLeftSide">
+                    <h1 className="bannerHead animate__animated animate__zoomInDown animate__delay-1s">
+                      Global Market Intelligence Consultancy
+                    </h1>
+                    <p className="bannerPara animate__animated animate__zoomInDown animate__delay-2s">
+                      We can research any market, any company, any topic,
+                      anywhere.
+                    </p>
+                  </div>
+                  <div className="bannerRightSide">
+                    <img
+                      src="https://res.cloudinary.com/dqcr5yn0b/image/upload/v1721990138/undraw_progressive_app_m-9-ms_1_maw8u4.svg"
+                      alt="banner"
+                      width={450}
+                    />
+                  </div>
                 </div>
               </div>
               <div className="col-lg-7"></div>
@@ -76,35 +83,26 @@ const Home = () => {
                   <span className="Textdecorate"></span>
                   <h2>India Best Web Designing Company</h2>
                   <p className="CompanyDescript">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                    impedit sint, atque, quaerat perferendis in expedita non
-                    dolores labore distinctio eius quibusdam ea obcaecati et
-                    quod cupiditate hic iste quae!
+                  We are a crafting web designing and digital marketing agency. We make sure that we can serve our customers with the satisfactory services that they need. We also make sure that we can establish a more powerful space in the market of the brand and website that you have. Whether you want us to create its design or we ourselves create the design that looks perfect.
                   </p>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                    impedit sint, atque, quaerat perferendis in expedita non
-                    dolores labore distinctio eius quibusdam ea obcaecati et
-                    quod cupiditate hic iste quae!
+                  We believe that the power of innovation is there to bring great results to our customers. We seek the market and then we take a big step in dealing with that to make sure that our customers can thrive successfully in a digital world. We make an approach to provide our clients with the satisfaction of bringing.
                   </p>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                    impedit sint, atque, quaerat perferendis in expedita non
-                    dolores labore distinctio eius quibusdam ea obcaecati et
-                    quod cupiditate hic iste quae!
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                    impedit sint, atque, quaerat perferendis in expedita non
-                    dolores labore distinctio eius quibusdam ea obcaecati et
-                    quod cupiditate hic iste quae!
+                  From making an appealing website to providing our customers with satisfactory digital marketing services we assure you that we are able to provide our customers with all the necessary web designing services and digital marketing services that make them go on the digital world.
                   </p>
                 </div>
               </div>
               <div className="col-lg-6">
-                <label className="ABoutLogo">
-                  <img src={about} alt="about" />
-                </label>
+                <div className="ABoutLogo">
+                  <img
+                    src={
+                      "https://res.cloudinary.com/dqcr5yn0b/image/upload/v1721990424/undraw_personal_information_re_vw8a_leyxqe.svg"
+                    }
+                    alt="about"
+                    width={450}
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -146,7 +144,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section>
+      <section style={{ margin: "30px 0" }}>
         <div className="container">
           <div className="row mt-5">
             <CompanyWork
@@ -176,7 +174,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="Testinomials mt-5 pb-5">
+      {/* <section className="Testinomials mt-5 pb-5">
         <div className="container">
           <div>
             <div>
@@ -195,7 +193,7 @@ const Home = () => {
             <Testinomial />
           </div>
         </div>
-      </section>
+      </section> */}
       <Growth />
       <WhyChooseUs />
       <ProcessList />
@@ -208,7 +206,7 @@ const Home = () => {
             <span className="Textdecorate m-auto"></span>
           </div>
           <div className="mb-5">
-            {data.map((elm, id) => {
+            {questions?.map((elm, id) => {
               return (
                 <FAQ
                   key={id}
