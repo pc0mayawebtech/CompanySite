@@ -8,6 +8,10 @@
 .NavBar {
     height: 6rem;
     background: var(--black);
+    position: fixed;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index: 9999;
 }
 
 .NavBar .NavItems .logo img {

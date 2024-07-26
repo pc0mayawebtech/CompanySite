@@ -15,6 +15,12 @@
     margin-bottom: 1rem;
 }
 
+.bannerRightSide {
+    position: absolute;
+    color: white;
+    right: 100px;
+    top: 200px;
+}
 
 
 /****************HOME BANNER MENU START*****************/
@@ -52,6 +58,9 @@
 }
 
 /**************ABOUT US SECTION START*****************/
+.AboutUS {
+    padding: 50px 20px;
+}
 .AboutUS .aboutHeadWrapper .IntroCompany {
     font-size: 2rem;
     font-weight: 700;
@@ -62,9 +71,12 @@
 .AboutUS .aboutHeadWrapper .CompanyDescript {
     color: var(--para-text-color);
 }
-
+.ABoutLogo {
+    padding-top: 150px;
+    margin-left: 50px;
+}
 .AboutUS .ABoutLogo img {
-    width: 100%;
+    /* width: 100%; */
 }
 
 /***************SOLUTION DELEIVERED SECTION START*******************/
@@ -125,7 +137,18 @@
     .HomeWrapper .bannerLeftSide .bannerHead {
         font-size: 2.4rem;
     }
-
+    .bannerRightSide {
+        display: none;
+    }
+    .ABoutLogo {
+        margin: 0;
+        justify-content: center;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .ABoutLogo img {
+        width: 250px;
+    }
     .HomeWrapper .bannerLeftSide .bannerPara {
         font-size: 1.4rem;
         top: 62%;
