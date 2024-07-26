@@ -1,7 +1,9 @@
 import React from 'react'
 import './Growth.css'
+import { useNavigate } from 'react-router-dom'
 
 const Growth = () => {
+  const navigate = useNavigate()
   return (
     <div className='growthMain'>
         <div className="growthLeft">
@@ -12,7 +14,7 @@ const Growth = () => {
             Everything we do and dream up has a solid design impact. We create human-centered enterprise software that has the polished, snappy feel of the best consumer apps.
             </div>
             <div className="growthLeftButton">
-                <button>Get Started</button>
+                <button onClick={()=> navigate('/contact')}>Get Started</button>
             </div>
         </div>
         <div className="growthRight">

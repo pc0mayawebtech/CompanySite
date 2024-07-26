@@ -135,14 +135,11 @@ const Strategy = () => {
             Strategies that get you on the path to success
           </div>
           <div className="rightHeroDesc">
-            What if blockchain adoption didn’t mean crypto adoption? A
-            stablecoin as our gas token removes transaction volatility and
-            speculation. We are creating the next class of blockchain, built on
-            the principle of economic sustainability.
+          What if advancing software technology didn’t require abandoning legacy systems? A stable integration approach removes the risk of disruption and ensures a seamless transition. We are building the next generation of software solutions, grounded in the principles of compatibility and efficiency.
           </div>
           <div className="rightHeroButtons">
             <button onClick={()=> navigate('/service')} className="ourServices">Our Services</button>
-            <button className="getStartedBtn">How it Works</button>
+            <button onClick={()=> navigate('/contact')} className="getStartedBtn">How it Works</button>
           </div>
         </div>
       </div>
