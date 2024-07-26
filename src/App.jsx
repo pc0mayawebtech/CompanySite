@@ -7,6 +7,7 @@ const App = () => {
   return (
     <>
       <div>
+        <div className='upArrowIcon' onClick={()=>window.scrollTo(0, 0)}>&#11165;</div>
         <Header />
         <Outlet />
         <Footer />

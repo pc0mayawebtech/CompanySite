@@ -12,6 +12,10 @@ import Testinomial from "../Home/Testinomial/Testinomial";
 import FAQ from "../Home/FAQ/FAQ";
 import { questions } from "../Home/FAQ/api.js";
 import { Fade } from "react-awesome-reveal";
+import WhyChooseUs from "./WhyChooseUs/WhyChooseUs.jsx";
+import ProcessList from "./Process/Process.jsx";
+import Growth from "./Growth/Growth.jsx";
+import Strategy from "./Strategy/Strategy.jsx";
 
 const Home = () => {
   // eslint-disable-next-line no-unused-vars
@@ -192,6 +196,10 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <Growth />
+      <WhyChooseUs />
+      <ProcessList />
+      <Strategy />
 
       <section className="FAQ">
         <div className="container">

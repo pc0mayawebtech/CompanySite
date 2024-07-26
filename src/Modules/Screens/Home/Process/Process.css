@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap");
+
+/* Process List Styles */
+.our-process-page {
+    margin-bottom: 50px;
+}
+.process-list {
+  width: 100%;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.process-list-item {
+  user-select: none;
+  text-align: center;
+  position: relative;
+  padding: 15px 35px;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.process-list-item:hover {
+  background-color: #f2f2f2; /* Use a specific color instead of darken */
+}
+
+.process-list-item:hover .process-number {
+  transform: translateY(5px);
+  color: #a30b2d
+}
+
+.process-number {
+  font-size: 90px;
+  -webkit-text-stroke: 1px #a30b2d;
+  display: block;
+  color: transparent;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  transition: transform 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.process-title {
+  display: block;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  font-size: 35px;
+  color: #a30b2d;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.process-subtitle {
+  display: block;
+  font-family: "Josefin Slab", serif;
+  font-size: 20px;
+  color: #666; /* Use a specific color instead of darken */
+  margin-top: 30px;
+  line-height: 1.5;
+}
+.process-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+.process-description {
+    font-family: "Roboto Condensed", sans-serif;
+}
+.mainTitle {
+    font-size: 40px;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+  .process-list {
+    display: inline-block;
+  }
+
+  .process-list-item {
+    width: 49%;
+    display: inline-block;
+  }
+
+}
+@media (max-width: 768px) {
+    .process-header {
+        margin: 20px 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+  .process-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .process-list-item {
+    width: 100%;
+    position: relative;
+  }
+
+  .process-list-item:not(:last-of-type)::after {
+    content: "";
+    width: 1px;
+    height: 75%;
+    background: #999; /* Use a specific color instead of darken */
+    position: absolute;
+    right: 0;
+    top: 50%;
+    opacity: 0.2;
+    transform: translateY(-50%);
+  }
+}
