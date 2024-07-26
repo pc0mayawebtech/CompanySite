@@ -52,7 +52,7 @@
     font-size: 1.1rem;
 }
 
-.Subsribe .subsribeInnerWrapper .inputBox .signup{
+.Subsribe .subsribeInnerWrapper .inputBox .signup {
     background-color: var(--black);
     color: var(--white);
     border: none;
@@ -66,7 +66,38 @@
     border-bottom-right-radius: 8px;
 }
 
-.Subsribe .subsribeInnerWrapper .inputBox .signup:hover{
+.Subsribe .subsribeInnerWrapper .inputBox .signup:hover {
     background-color: cornflowerblue;
     font-weight: 600;
+}
+
+@media screen and (max-width:991px) {
+    .Subsribe .subsribeInnerWrapper .inputBox {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .Subsribe .subsribeInnerWrapper .inputBox input {
+        width: 100%;
+        padding: 0.9rem 1rem;
+        border: none;
+        outline: none;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        font-size: 1.1rem;
+    }
+
+    .Subsribe .subsribeInnerWrapper .inputBox .signup {
+        background-color: var(--black);
+        color: var(--white);
+        border: none;
+        outline: none;
+        font-weight: 600;
+        font-size: 0.9rem;
+        width: auto;
+        padding: 0.4rem 1rem;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
 }

@@ -59,3 +59,16 @@
 .Technology .back3 {
     background-color: lavender;
 }
+
+@media screen and (max-width:991px) {
+    .Technology .techWrapper .Techhead {
+        color: var(--red);
+        font-weight: 600;
+        font-size: 2.5rem;
+        line-height: 1.6;
+    }
+
+    .techWrapper img {
+        width: 100%;
+    }
+}

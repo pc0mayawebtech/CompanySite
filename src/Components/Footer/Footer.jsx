@@ -16,12 +16,6 @@ const Footer = () => {
                   <span className='Textdecorate'></span>
                   <p className='CompanyWork'>Maya Web Tech is a professional web services company In Noida (Delhi/ NCR), India. We design and build websites, provide internet marketing solutions and help businesses create their brand.</p>
                 </div>
-                <div className='socialIcon'>
-                  <Link to="https://www.facebook.com/profile.php?id=100094274320325"><i className="fa-brands fa-facebook fa-xl"></i></Link>
-                  <Link to=""><i className="fa-brands fa-square-x-twitter fa-xl"></i></Link>
-                  <Link to=""><i className="fa-brands fa-pinterest fa-xl"></i></Link>
-                  <Link to="https://www.linkedin.com/company/96414344/admin/feed/posts/"><i className="fa-brands fa-linkedin fa-xl"></i></Link>
-                </div>
               </div>
               <UsefulLink link1="/" link2="service" link3="about" link4="contact" title="Quick Links" listlink="Home" listlink2="Services" listlink3="About" listlink4="Contact" icon=<i className='fa-solid fa-angles-right'></i> />
               <UsefulLink link1="privacypolicy" link2="refundpolicy" link3="term-condition" link4="disclaimer" title="Useful Links" listlink="Privacy Policy" listlink2="Refund Policy" listlink3="Terms & Conditions" listlink4="Disclaimer" icon=<i className='fa-solid fa-angles-right'></i> />
