@@ -12,9 +12,9 @@ const Footer = () => {
             <div className="row">
               <div className="col-lg-3 footer-widget">
                 <div className='CompnayData'>
-                  <h5 className='companyInfo'>About Maya Web Tech</h5>
+                  <h5 className='companyInfo'>FinLogic Technologies</h5>
                   <span className='Textdecorate'></span>
-                  <p className='CompanyWork'>Maya Web Tech is a professional web services company In Noida (Delhi/ NCR), India. We design and build websites, provide internet marketing solutions and help businesses create their brand.</p>
+                  <p className='CompanyWork'>FinLogic Technologies is a professional web services company In Noida (Delhi/ NCR), India. We design and build websites, provide internet marketing solutions and help businesses create their brand.</p>
                 </div>
               </div>
               <UsefulLink link1="/" link2="service" link3="about" link4="contact" title="Quick Links" listlink="Home" listlink2="Services" listlink3="About" listlink4="Contact" icon=<i className='fa-solid fa-angles-right'></i> />

@@ -9,7 +9,7 @@ const TechStack = ({ head1, head2, img1, img2, img3, img4, img5, img6, img7, lan
                         <div className="row mt-5">
                             <div className="col-lg-5">
                                 <h2 className='techDomain'>{head1} <br /> {head2}</h2>
-                                <p className='domainInfo'>As a final step of design discovery, we will create a series of user personas to gain an understanding of the different types of potential users of the application, what motivates them, and what goals they would like to achieve when using the app</p>
+                                <p className='domainInfo'>At last we provide the help of best design techniques to our customers to provide help in the project.</p>
                             </div>
                             <div className="col-lg-1"></div>
                             <div className="col-lg-6 text-center">

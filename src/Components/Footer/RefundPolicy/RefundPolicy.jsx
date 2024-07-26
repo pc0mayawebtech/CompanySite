@@ -21,7 +21,7 @@ const RefundPolicy = () => {
                     <div className='firstBox mb-5'>
                         <h2 className='headWrapperBox'>REFUND POLICY</h2>
                         <p className='contWrapperBox'>if service not provided within 7 Working days, timing mentions in email, Payment will be refund on your Account,</p>
-                        <p className='contWrapperBox'>which contract specifically with the issuer (Maya Web Tech is the issuer in this case) to accept the payment instrument. These instruments do not permit cash withdrawal or redemption by the customer.</p>
+                        <p className='contWrapperBox'>which contract specifically with the issuer (FinLogic Technologies is the issuer in this case) to accept the payment instrument. These instruments do not permit cash withdrawal or redemption by the customer.</p>
                     </div>
                     <div className='secondbox mb-5'>
                         <p className='innerWrapperbox'>Change of us: In case the bus operator changes the type of bus due to some reason, MayaWebTech will refund the differential amount to the customer upon being intimated by the customers in 24 hours of the journey.</p>

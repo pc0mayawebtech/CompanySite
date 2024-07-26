@@ -31,7 +31,7 @@ const About = () => {
 
           <div>
             <Slide cascade damping={1}>
-              <h2 className='digitalWrapper'>Welcome to Maya Web Tech</h2>
+              <h2 className='digitalWrapper'>Welcome to FinLogic Technologies</h2>
             </Slide>
             <Slide cascade damping={4}>
               <p className='WrapperContent'>Your Trusted Partner in Digital World !</p>

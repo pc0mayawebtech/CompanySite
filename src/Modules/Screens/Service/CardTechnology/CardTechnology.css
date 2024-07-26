@@ -13,6 +13,11 @@
     width: 100%;
 }
 
+.serviceEfficiency img {
+    height: 430px;
+    max-height: 430px;
+}
+
 .serviceEfficiency .innerCont {
     font-size: 0.9rem;
     font-weight: 500;

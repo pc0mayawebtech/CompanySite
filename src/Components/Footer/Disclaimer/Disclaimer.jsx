@@ -21,7 +21,7 @@ const Disclaimer = () => {
                 <div className="container">
                     <div className='firstBox mb-3'>
                         <h2 className='headWrapperBox'>Disclaimer</h2>
-                        <p className='contWrapperBox'>Maya Web Tech herein after referred as the Company, is a delivery oriented company and believes in good governance, commitment and best delivery of its contracts, however, towards a transparent mechanism of cancellation and allowing refunds the present Cancellation and refund policy is formulated as follows:</p>
+                        <p className='contWrapperBox'>FinLogic Technologies herein after referred as the Company, is a delivery oriented company and believes in good governance, commitment and best delivery of its contracts, however, towards a transparent mechanism of cancellation and allowing refunds the present Cancellation and refund policy is formulated as follows:</p>
                     </div>
                     <div className='secondbox mb-5'>
                         <p className='innerWrapperbox'>(1) Any Client may on the following grounds call in for cancellation for its contract and seek refund:</p>

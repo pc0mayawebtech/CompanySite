@@ -14,11 +14,19 @@
     z-index: 9999;
 }
 
-.NavBar .NavItems .logo img {
-    width: 140px;
-    height: 100%;
-    position: relative;
-    top: -20px;
+.NavBar .NavItems .logo {
+    display: inline-block;
+    font-size: 1.8rem;
+    color: white;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.innercont {
+    font-size: 1.8rem;
+    color: var(--red);
+    font-weight: 600;
 }
 
 .NavBar .NavItems .NavMenu {
@@ -85,6 +93,9 @@
 
     .NavBar .icon {
         display: block;
+        font-size: 1.4rem;
+        margin-top: 0px;
+        margin-right: 5px;
     }
 
     .NavBar .NavMenu .crossicon {
@@ -108,7 +119,7 @@
 
     .NavBar .NavMenu li {
         display: block !important;
-        line-height: 70px!important;
+        line-height: 70px !important;
     }
 
     .NavBar .NavMenu.responsive_nav {

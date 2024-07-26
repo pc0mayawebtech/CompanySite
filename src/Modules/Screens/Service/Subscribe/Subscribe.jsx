@@ -19,11 +19,11 @@ const Subscribe = () => {
         let newErrors = {};
         let flag = true;
         if (email.trim() === "") {
-            newErrors[email] = "email is not blank";
+            newErrors[email] = "Email is not blank";
             flag = false;
         }
         else if (!email.includes('@')) {
-            newErrors[email] = "email includes @";
+            newErrors[email] = "Email includes @";
             flag = false;
         }
 
@@ -42,11 +42,11 @@ const Subscribe = () => {
                 <div className='subsribeInnerWrapper'>
                     <h1 className='innerHead mb-4'>Subscribe to Our Newsletter</h1>
                     <p className='innerCont'>Receive the latest technology & business news in your inbox. Select the newsletters you’d like to receive.</p>
-                    <div className='inputBox'>
+                    <div className='inputBox mb-1'>
                         <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} placeholder='Your email address' className='emailInput' />
                         <button type='submit' className='signup' onClick={handleSubmit}>Sign up</button>
                     </div>
-                    <span style={{ textAlign: "center", display: "block" }}>{errors[email]}</span>
+                    <span style={{ textAlign: "center", display: "block", fontSize: "1.1rem", color: "red" }}>{errors[email]}</span>
                 </div>
                 <ToastContainer />
             </div>

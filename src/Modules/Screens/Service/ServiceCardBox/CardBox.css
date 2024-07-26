@@ -55,9 +55,10 @@ ul {
 }
 
 .site-heading {
-    margin-bottom: 60px;
+    margin-bottom: 25px;
     overflow: hidden;
     margin-top: -5px;
+    padding: 2rem 0rem;
 }
 
 .carousel-shadow .owl-stage-outer {
@@ -258,4 +259,13 @@ ul {
     position: absolute;
     top: -10px;
     width: 120px;
+}
+
+@media screen and (max-width:991px) {
+    .site-heading {
+        margin-bottom: 8px;
+        overflow: hidden;
+        margin-top: -5px;
+        padding: 2rem 0rem;
+    }
 }

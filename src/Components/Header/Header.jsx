@@ -1,5 +1,5 @@
 import './Header.css';
-import logo from '../../assets/Images/mayaweblogo.png';
+// import logo from '../../assets/Images/mayaweblogo.png';
 import { Link } from 'react-router-dom';
 import { useRef } from 'react';
 
@@ -16,7 +16,7 @@ const Header = () => {
                 <div className="container">
                     <nav className='NavItems'>
                         <label className='logo'>
-                            <img src={logo} alt="logo" />
+                            Fin<span className='innercont'>Logic</span>
                         </label>
                         <ul className='NavMenu' ref={navRef}>
                             <li><Link to="/" className='NavMenuList'>Home</Link></li>
