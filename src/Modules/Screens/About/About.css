@@ -1,0 +1,155 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/***********TOP BANNER SECTION START************/
+.BannerBox {
+    background-image: url('../../../assets//Images/aboutBanner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s ease;
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+
+.BannerBox .InnerBanner .aboutHead {
+    color: var(--white);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    margin-bottom: 0px;
+}
+
+/********************HERO BANNER SECTION START***************/
+.heroWrapper {
+    background-color: var(--banner-bg-color);
+    padding: 2rem 0rem;
+    font-weight: 600;
+}
+
+.heroWrapper .digitalWrapper {
+    font-size: 3.5rem;
+    color: var(--red);
+    font-weight: 500;
+}
+
+.heroWrapper .WrapperContent {
+    font-size: 1.6rem;
+    color: var(--white);
+    font-weight: 500;
+}
+
+.heroWrapper .abtCompany {
+    color: var(--white);
+    font-weight: 500;
+    letter-spacing: 0.9px;
+}
+
+/************WHY CHOOSE US SECTION START*************/
+.ChooseUs {
+    margin-top: 5rem;
+}
+
+.ChooseUs .whyChooseSum .chooseHead {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--red);
+    margin-bottom: 1.2rem;
+}
+
+.ChooseUs .ListMenu .listWorkingHead {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.ChooseUs .ListMenu .listWorkingAbt {
+    color: #5E5E5E;
+    font-weight: 600;
+    margin-bottom: 1.4rem;
+}
+
+/***************COMPANY WORK SUCEESS SECTION START***************/
+.CompanySuccess {
+    background-image: url('../../../assets/Images/aboutChoosebg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.87;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+/****************REACH OUT US SECTION START****************/
+.ReachOutUs {
+    background-color: var(--banner-bg-color) !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+.ConnectBusiness {
+    padding: 90px 0px;
+    position: relative;
+}
+
+.ReachOutUs .InnerContactData .InnerCont {
+    font-size: 1rem;
+    color: var(--red);
+    font-weight: bolder;
+    text-align: center;
+}
+
+.ReachOutUs .InnerContactData .InnerHead {
+    font-size: 3rem;
+    color: var(--white);
+    font-weight: bolder;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.ReachOutUs .InnerContactData .abtbusineeslayer {
+    font-size: 1rem;
+    color: var(--white);
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+.ReachOutUs .Connectbtn {
+    background-color: var(--red);
+    width: 30%;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding: 0.5rem 0.9rem;
+    margin: auto;
+    display: block;
+}
+
+.ReachOutUs .Connectbtn .innerContact {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/***************MEDIA QUERY SECTION START**************/
+
+@media(max-width:991px) {
+    .ReachOutUs .Connectbtn {
+        width: 60%;
+    }
+}

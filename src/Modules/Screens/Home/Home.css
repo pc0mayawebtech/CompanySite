@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/**************COMMON CLASS SECTION START*************/
+.Textdecorate {
+    display: block;
+    border-bottom: 2px solid var(--red);
+    width: 6em;
+    padding-top: 0px;
+    margin-bottom: 1rem;
+}
+
+
+
+/****************HOME BANNER MENU START*****************/
+.HomeWrapper .ElementorVideo {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.HomeWrapper .elementorSetVideo {
+    object-fit: cover;
+}
+
+.HomeWrapper .bannerLeftSide .bannerHead {
+    font-size: 3.5rem;
+    color: #ffffff;
+    position: absolute;
+    top: 30%;
+    max-width: 600px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+
+.HomeWrapper .bannerLeftSide .bannerPara {
+    font-size: 1.8rem;
+    color: #ffffff;
+    top: 70%;
+    position: absolute;
+    max-width: 600px;
+    letter-spacing: 1.5px;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+
+/**************ABOUT US SECTION START*****************/
+.AboutUS .aboutHeadWrapper .IntroCompany {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--red);
+    margin-top: 2rem;
+}
+
+.AboutUS .aboutHeadWrapper .CompanyDescript {
+    color: var(--para-text-color);
+}
+
+.AboutUS .ABoutLogo img {
+    width: 100%;
+}
+
+/***************SOLUTION DELEIVERED SECTION START*******************/
+.SolutionDelivered {
+    background-color: var(--box-bg-color);
+    padding: 2rem;
+}
+
+.SolutionDelivered .SolDelievreHead h2 {
+    font-size: 2rem;
+    color: var(--white);
+    font-weight: 700;
+}
+
+
+/****************TESTINOMIAL SECTION START*************/
+.Testinomials {
+    background-image: url('../../../assets/Images/companyservice.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Testinomials .testinomialleftHead {
+    color: var(--white);
+    font-size: 2rem;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.Testinomials .testinomialleftCont {
+    color: var(--white);
+    letter-spacing: 1px;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+}
+
+/************FAQ SECTION START****************/
+.FAQ {
+    padding: 2rem;
+}
+
+.FAQ .FAQBox .FaqHead {
+    text-align: center;
+    color: var(--red);
+    font-weight: 600;
+
+}
+
+
+
+/***************MEDIA QUERY START******************/
+
+@media (max-width:992px) {
+    .HomeWrapper .bannerLeftSide .bannerHead {
+        font-size: 2.4rem;
+    }
+
+    .HomeWrapper .bannerLeftSide .bannerPara {
+        font-size: 1.4rem;
+        top: 62%;
+    }
+}

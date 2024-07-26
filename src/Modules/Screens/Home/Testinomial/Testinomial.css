@@ -1,0 +1,50 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style-position: no;
+}
+
+.Testinomial-slides .testinomial {
+    box-shadow: 0px 2px 1px 1px #5E5E5E;
+    background-color: var(--white);
+    border-radius: 6px;
+    width: 100%;
+}
+
+.Testinomial-slides .testinomial:hover {
+    transform: scale(1.09);
+    transition: all .5s ease-in-out;
+}
+
+.Testinomial-slides .testinomial .TestiImg {
+    background-color: #413a3a;
+    padding: 2rem;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.Testinomial-slides .testinomial .TestiImg img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.Testinomial-slides .testinomial .Innercard {
+    margin: auto;
+    padding: 18px;
+}
+
+.Testinomial-slides .testinomial .Innercard .carduser {
+    text-align: center;
+    color: var(--card-head-color);
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.Testinomial-slides .testinomial .Innercard .cardCont {
+    color: var(--card-para-color);
+    text-align: center;
+    margin: auto;
+}

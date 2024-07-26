@@ -1,0 +1,68 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.FooterBanner .footer-widget {
+    margin: 50px 0px;
+}
+
+.FooterBanner {
+    background-color: var(--black);
+    height: 100%;
+    width: 100%;
+}
+
+.FooterBanner .CompnayData .companyInfo {
+    color: var(--white);
+}
+
+.FooterBanner .CompnayData:hover .Textdecorate {
+    width: 100%;
+    transition: all .5s ease-in-out;
+}
+
+.FooterBanner .CompnayData .CompanyWork {
+    color: var(--white);
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+}
+
+.FooterBanner .CompnayData .CompanyWork:hover {
+    color: var(--red);
+}
+
+.FooterBanner .CompnayData .CompnayInnerDataList ul {
+    padding: 0px;
+}
+
+.FooterBanner .CompnayData .CompnayInnerDataList ul li {
+    margin-bottom: 10px;
+}
+
+.FooterBanner .CompnayData .CompnayInnerDataList ul li .mainfwrapper {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.FooterBanner .CompnayData .CompnayInnerDataList ul li .mainfwrapper:hover {
+    color: var(--red);
+}
+
+.FooterBanner .socialIcon {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.FooterBanner .socialIcon i {
+    color: var(--white);
+}
+
+.FooterBanner .socialIcon i:hover {
+    color: var(--red);
+}

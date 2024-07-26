@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.BoxBlock {
+    box-shadow: 0 10px 25px -10px rgba(0, 0, 0);
+    background-color: #ffffff;
+    padding: 1.4rem;
+    border-radius: 6px;
+    animation: popUp 2s infinite alternate;
+}
+
+.BoxBlock:hover {
+    background: linear-gradient(150deg, #cc6060, transparent);
+    color: var(--white) !important;
+    cursor: pointer;
+}
+
+.BoxBlock .OuterCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-bottom: 8px;
+    border-bottom: 2px solid var(--red);
+}
+
+.BoxBlock .OuterCont .InnerboxCard .boxCardHead {
+    font-size: 2.6rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.BoxBlock .OuterCont img {
+    width: 60px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.BoxBlock .clientInfo {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}

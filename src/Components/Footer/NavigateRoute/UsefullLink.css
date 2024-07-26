@@ -1,0 +1,33 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.FooterBanner .usefullLink .LinkHead {
+    color: var(--white);
+}
+
+.FooterBanner .usefullLink:hover .Textdecorate {
+    width: 100%;
+    transition: all .5s ease-in-out;
+}
+
+.FooterBanner .usefullLink .linkList ul {
+    padding: 0px;
+}
+
+.FooterBanner .usefullLink .linkList ul li {
+    margin-bottom: 10px;
+}
+
+.FooterBanner .usefullLink .linkList ul li .innerfwrapper {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.FooterBanner .usefullLink .linkList ul li .innerfwrapper:hover {
+    color: var(--red);
+}

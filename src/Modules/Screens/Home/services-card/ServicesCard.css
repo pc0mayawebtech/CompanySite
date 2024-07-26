@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.CardBox .boxCard {
+    background: linear-gradient(150deg, #cc6060, transparent);
+    padding: 2rem;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.CardBox .boxCard:hover {
+    background-color: var(--red);
+    padding: 2rem;
+    font-weight: 700;
+    border-radius: 6px;
+    transform: scale(1.05);
+    transition: all .4s ease-in-out;
+}
+
+.CardBox .boxCard .boxCardHead {
+    color: var(--white);
+    margin-bottom: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.CardBox .fastIcon {
+    color: var(--white);
+}
+
+.CardBox .boxCard .boxCardCont {
+    color: var(--white);
+    letter-spacing: 1px;
+}
