@@ -8,7 +8,7 @@ const ServicesCard = ({ title, content }) => {
             <section className='CardBox'>
                 <div className="container">
                     <div>
-                        <Fade cascade="true" duration={3000} direction='left'>
+                        <Fade cascade="true" duration={500} direction='left' triggerOnce>
                             <div className='boxCard'>
                                 <h4 className='boxCardHead'><FastForward className='fastIcon' /> {title}</h4>
                                 <p className='boxCardCont'>{content}</p>
